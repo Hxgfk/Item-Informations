@@ -44,9 +44,6 @@ Food Information:
 | Minecraft Version | Status | Loader |
 |-------------------|--------|--------|
 | 1.20.1            |   ✔️   | Forge  |
-| 1.19.4            |   ✔️   | Forge  |
-| 1.19.2            |   ✔️   | Forge  |
-| 1.18.2            |   ⚠️   | Forge  |
 
 ## 📜 License
 This project is licensed under the GNU GPL 3.0 License.
