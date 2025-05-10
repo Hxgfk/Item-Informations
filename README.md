@@ -12,16 +12,10 @@ A lightweight utility mod that provides detailed item inspection through simple 
 - **Comprehensive Data**  
   Displays:
   - Basic item metadata (ID, registry name)
-  - Detailed NBT data (compact or formatted)
+  - Detailed NBT data (formatted)
   - Food properties (hunger restoration, saturation, effects)
   - Tool/Weapon stats (durability, attack damage, mining level)
   - Equipment type classification (pickaxe, sword, etc.)
-- **Developer Friendly**  
-  Copy-paste ready NBT output for debugging
-- **Customizable Output**  
-  Configure displayed information via config file
-- **Multi-loader Support**  
-  Available for both Forge and Fabric
 
 ## 🕹 Usage
 
@@ -31,38 +25,28 @@ A lightweight utility mod that provides detailed item inspection through simple 
 3. Get detailed information:  
    Example Output:
  ```text
+Item: Apple
+ID: minecraft:apple
+NBT: {tag: 10}
+Food Information:
 
 ```
-   *(Screenshot placeholder - you should add real image later)*
 
 ### Advanced Commands
-| Command | Description |
-|---------|-------------|
-| `/iteminf nbt` | Raw NBT output |
-| `/iteminf food` | Detailed nutrition info |
-| `/iteminf tool` | Durability analysis |
+| Command         | Description                   |
+|-----------------|-------------------------------|
+| `/iteminf nbt`  | NBT data                      |
+| `/iteminf food` | Food data                     |
+| `/iteminf tool` | Tool data                     |
+| `/iteminf base` | Base information of this item |
 
-## ⚙ Configuration
-
-Edit `config/iteminf-common.toml` to customize:
-
-```toml
-[client]
-# Show/hide information categories
-showNBT = true
-showDurability = true
-showFoodStats = true
-
-# Output formatting
-compactMode = false 
-maxNBTDepth = 3
-```
 ## 📦 Compatibility
 | Minecraft Version | Status | Loader |
-|-------------------|-----|--------|
-| 1.20.1            | ✔️ | Forge |
-| 1.19.4            | ✔️ | Forge |
-| 1.18.2            | ⚠️ | Forge |
+|-------------------|--------|--------|
+| 1.20.1            |   ✔️   | Forge  |
+| 1.19.4            |   ✔️   | Forge  |
+| 1.19.2            |   ✔️   | Forge  |
+| 1.18.2            |   ⚠️   | Forge  |
 
 ## 📜 License
 This project is licensed under the GNU GPL 3.0 License.
