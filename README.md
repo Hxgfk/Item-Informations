@@ -1,6 +1,6 @@
 # Item Informations Mod
 
-[![CurseForge Downloads](https://img.shields.io/badge/dynamic/json?label=CurseForge&query=downloads.total&url=https://api.cfwidget.com/minecraft/mc-mods/iteminf&style=flat-square)](https://www.curseforge.com/minecraft/mc-mods/item-informations)
+[![CurseForge Downloads](https://img.shields.io/badge/dynamic/json?label=CurseForge&query=downloads.total&url=https://api.cfwidget.com/minecraft/mc-mods/item-informations&style=flat-square)](https://www.curseforge.com/minecraft/mc-mods/item-informations)
 [![License](https://img.shields.io/badge/License-GPLv3-green.svg?style=flat-square)](LICENSE)
 
 A lightweight utility mod that provides detailed item inspection through simple commands.
